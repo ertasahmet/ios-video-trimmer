@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED8764028AB84E300EFD0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8763F28AB84E300EFD0EC /* AppDelegate.swift */; };
+		CED8764228AB84E300EFD0EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8764128AB84E300EFD0EC /* SceneDelegate.swift */; };
+		CED8764428AB84E300EFD0EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8764328AB84E300EFD0EC /* ViewController.swift */; };
+		CED8764728AB84E300EFD0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED8764528AB84E300EFD0EC /* Main.storyboard */; };
+		CED8764928AB84E500EFD0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED8764828AB84E500EFD0EC /* Assets.xcassets */; };
+		CED8764C28AB84E500EFD0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED8764A28AB84E500EFD0EC /* LaunchScreen.storyboard */; };
+		CED8765428AB856E00EFD0EC /* SampleVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CED8765328AB856E00EFD0EC /* SampleVideo.mp4 */; };
+		CED8765728AB865B00EFD0EC /* VideoTrimmerThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8765528AB865B00EFD0EC /* VideoTrimmerThumb.swift */; };
+		CED8765828AB865B00EFD0EC /* VideoTrimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8765628AB865B00EFD0EC /* VideoTrimmer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1769EB28DF0EB5675FBBD35E /* Pods-VideoTrimmerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTrimmerApp.release.xcconfig"; path = "Target Support Files/Pods-VideoTrimmerApp/Pods-VideoTrimmerApp.release.xcconfig"; sourceTree = "<group>"; };
+		3234497236EB8CA4C8148348 /* Pods-VideoTrimmerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTrimmerApp.debug.xcconfig"; path = "Target Support Files/Pods-VideoTrimmerApp/Pods-VideoTrimmerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CED8763C28AB84E300EFD0EC /* VideoTrimmerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTrimmerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED8763F28AB84E300EFD0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED8764128AB84E300EFD0EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED8764328AB84E300EFD0EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED8764628AB84E300EFD0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED8764828AB84E500EFD0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED8764B28AB84E500EFD0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED8764D28AB84E500EFD0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED8765328AB856E00EFD0EC /* SampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo.mp4; sourceTree = "<group>"; };
+		CED8765528AB865B00EFD0EC /* VideoTrimmerThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTrimmerThumb.swift; sourceTree = "<group>"; };
+		CED8765628AB865B00EFD0EC /* VideoTrimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTrimmer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED8763928AB84E300EFD0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D43E879F6576A8B9BF381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3234497236EB8CA4C8148348 /* Pods-VideoTrimmerApp.debug.xcconfig */,
+				1769EB28DF0EB5675FBBD35E /* Pods-VideoTrimmerApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60C220936940E5C9B8A3B3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED8763328AB84E300EFD0EC = {
+			isa = PBXGroup;
+			children = (
+				CED8763E28AB84E300EFD0EC /* VideoTrimmerApp */,
+				CED8763D28AB84E300EFD0EC /* Products */,
+				188D43E879F6576A8B9BF381 /* Pods */,
+				60C220936940E5C9B8A3B3DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED8763D28AB84E300EFD0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED8763C28AB84E300EFD0EC /* VideoTrimmerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED8763E28AB84E300EFD0EC /* VideoTrimmerApp */ = {
+			isa = PBXGroup;
+			children = (
+				CED8765628AB865B00EFD0EC /* VideoTrimmer.swift */,
+				CED8765528AB865B00EFD0EC /* VideoTrimmerThumb.swift */,
+				CED8765328AB856E00EFD0EC /* SampleVideo.mp4 */,
+				CED8763F28AB84E300EFD0EC /* AppDelegate.swift */,
+				CED8764128AB84E300EFD0EC /* SceneDelegate.swift */,
+				CED8764328AB84E300EFD0EC /* ViewController.swift */,
+				CED8764528AB84E300EFD0EC /* Main.storyboard */,
+				CED8764828AB84E500EFD0EC /* Assets.xcassets */,
+				CED8764A28AB84E500EFD0EC /* LaunchScreen.storyboard */,
+				CED8764D28AB84E500EFD0EC /* Info.plist */,
+			);
+			path = VideoTrimmerApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED8763B28AB84E300EFD0EC /* VideoTrimmerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED8765028AB84E500EFD0EC /* Build configuration list for PBXNativeTarget "VideoTrimmerApp" */;
+			buildPhases = (
+				162270D2312C9F3DE1577CF2 /* [CP] Check Pods Manifest.lock */,
+				CED8763828AB84E300EFD0EC /* Sources */,
+				CED8763928AB84E300EFD0EC /* Frameworks */,
+				CED8763A28AB84E300EFD0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTrimmerApp;
+			productName = VideoTrimmerApp;
+			productReference = CED8763C28AB84E300EFD0EC /* VideoTrimmerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED8763428AB84E300EFD0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CED8763B28AB84E300EFD0EC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CED8763728AB84E300EFD0EC /* Build configuration list for PBXProject "VideoTrimmerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED8763328AB84E300EFD0EC;
+			productRefGroup = CED8763D28AB84E300EFD0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED8763B28AB84E300EFD0EC /* VideoTrimmerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED8763A28AB84E300EFD0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8764C28AB84E500EFD0EC /* LaunchScreen.storyboard in Resources */,
+				CED8764928AB84E500EFD0EC /* Assets.xcassets in Resources */,
+				CED8764728AB84E300EFD0EC /* Main.storyboard in Resources */,
+				CED8765428AB856E00EFD0EC /* SampleVideo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		162270D2312C9F3DE1577CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoTrimmerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED8763828AB84E300EFD0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED8765828AB865B00EFD0EC /* VideoTrimmer.swift in Sources */,
+				CED8764428AB84E300EFD0EC /* ViewController.swift in Sources */,
+				CED8765728AB865B00EFD0EC /* VideoTrimmerThumb.swift in Sources */,
+				CED8764028AB84E300EFD0EC /* AppDelegate.swift in Sources */,
+				CED8764228AB84E300EFD0EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CED8764528AB84E300EFD0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED8764628AB84E300EFD0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED8764A28AB84E500EFD0EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED8764B28AB84E500EFD0EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED8764E28AB84E500EFD0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED8764F28AB84E500EFD0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED8765128AB84E500EFD0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3234497236EB8CA4C8148348 /* Pods-VideoTrimmerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VA3Z46865;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoTrimmerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ertasahmet.VideoTrimmerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED8765228AB84E500EFD0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1769EB28DF0EB5675FBBD35E /* Pods-VideoTrimmerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VA3Z46865;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoTrimmerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ertasahmet.VideoTrimmerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED8763728AB84E300EFD0EC /* Build configuration list for PBXProject "VideoTrimmerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8764E28AB84E500EFD0EC /* Debug */,
+				CED8764F28AB84E500EFD0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED8765028AB84E500EFD0EC /* Build configuration list for PBXNativeTarget "VideoTrimmerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED8765128AB84E500EFD0EC /* Debug */,
+				CED8765228AB84E500EFD0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED8763428AB84E300EFD0EC /* Project object */;
+}
